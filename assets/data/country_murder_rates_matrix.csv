@@ -1,0 +1,881 @@
+,Year,Murder Rate,Country Name
+1,1995,139.13207880000002,El Salvador
+2,1996,117.2772815,El Salvador
+3,1997,112.56865990000001,El Salvador
+4,1998,94.99673108,El Salvador
+5,1999,65.04718078,El Salvador
+6,2000,60.51851294,El Salvador
+7,2001,60.78603283,El Salvador
+8,2002,47.72483828,El Salvador
+9,2003,56.19995529,El Salvador
+10,2004,64.94161171,El Salvador
+11,2005,64.38920404,El Salvador
+12,2006,64.83966424,El Salvador
+13,2007,57.48359285,El Salvador
+14,2008,52.02689687,El Salvador
+15,2009,71.39975455,El Salvador
+16,2010,64.67545639,El Salvador
+17,2011,70.58470164,El Salvador
+18,2012,41.69582749,El Salvador
+19,2013,40.20300196,El Salvador
+20,2014,62.42448683,El Salvador
+21,2015,105.44195159999998,El Salvador
+22,2016,82.8422575,El Salvador
+1,1995,,Honduras
+2,1996,,Honduras
+3,1997,,Honduras
+4,1998,,Honduras
+5,1999,42.08425258,Honduras
+6,2000,48.67967867,Honduras
+7,2001,52.11367415,Honduras
+8,2002,52.78911731,Honduras
+9,2003,57.90593761,Honduras
+10,2004,50.51253076,Honduras
+11,2005,43.56181587,Honduras
+12,2006,41.34507544,Honduras
+13,2007,46.54920905,Honduras
+14,2008,56.58825774,Honduras
+15,2009,65.71233603,Honduras
+16,2010,76.09724144,Honduras
+17,2011,85.06154509,Honduras
+18,2012,84.32046196,Honduras
+19,2013,74.27996884,Honduras
+20,2014,66.87314739,Honduras
+21,2015,57.45004173,Honduras
+22,2016,56.51570309,Honduras
+1,1995,69.67263381,Colombia
+2,1996,71.78689966,Colombia
+3,1997,67.18454989,Colombia
+4,1998,60.08465495,Colombia
+5,1999,62.29244855,Colombia
+6,2000,65.68415896,Colombia
+7,2001,67.92081243,Colombia
+8,2002,68.28313463,Colombia
+9,2003,55.80498134,Colombia
+10,2004,47.30344278,Colombia
+11,2005,41.84067166,Colombia
+12,2006,39.87387273,Colombia
+13,2007,38.75643015,Colombia
+14,2008,35.94531181,Colombia
+15,2009,34.82679444,Colombia
+16,2010,33.66646488,Colombia
+17,2011,34.75148797,Colombia
+18,2012,35.06715606,Colombia
+19,2013,32.56871383,Colombia
+20,2014,27.91895055,Colombia
+21,2015,26.50289308,Colombia
+22,2016,25.50432615,Colombia
+1,1995,31.68778915,Jamaica
+2,1996,37.22825387,Jamaica
+3,1997,41.37325733,Jamaica
+4,1998,33.90499497,Jamaica
+5,1999,33.38541823,Jamaica
+6,2000,33.38522408,Jamaica
+7,2001,42.54745311,Jamaica
+8,2002,38.76909424,Jamaica
+9,2003,35.94455469,Jamaica
+10,2004,53.9069334,Jamaica
+11,2005,60.99087214,Jamaica
+12,2006,48.54581729,Jamaica
+13,2007,57.07147662,Jamaica
+14,2008,58.02613649,Jamaica
+15,2009,60.01964279,Jamaica
+16,2010,51.3628732,Jamaica
+17,2011,40.04250938,Jamaica
+18,2012,38.68367106,Jamaica
+19,2013,42.11364935,Jamaica
+20,2014,35.11423657,Jamaica
+21,2015,42.06224795,Jamaica
+22,2016,47.01105843,Jamaica
+1,1995,64.91652658,South Africa
+2,1996,60.39016743,South Africa
+3,1997,57.11239533,South Africa
+4,1998,57.74168141,South Africa
+5,1999,51.21287095,South Africa
+6,2000,47.58102283,South Africa
+7,2001,46.14637756,South Africa
+8,2002,45.83192428,South Africa
+9,2003,41.60446931,South Africa
+10,2004,38.95132577,South Africa
+11,2005,37.95120362,South Africa
+12,2006,38.70386262,South Africa
+13,2007,36.88322257,South Africa
+14,2008,35.87231954,South Africa
+15,2009,32.89529315,South Africa
+16,2010,30.80954508,South Africa
+17,2011,29.76072257,South Africa
+18,2012,30.59159749,South Africa
+19,2013,31.66045088,South Africa
+20,2014,32.64602136,South Africa
+21,2015,33.7720859,South Africa
+22,2016,33.97095703,South Africa
+1,1995,20.33591335,"Venezuela, RB"
+2,1996,22.04962584,"Venezuela, RB"
+3,1997,18.39978807,"Venezuela, RB"
+4,1998,19.42424157,"Venezuela, RB"
+5,1999,24.98512426,"Venezuela, RB"
+6,2000,32.75844749,"Venezuela, RB"
+7,2001,31.90575649,"Venezuela, RB"
+8,2002,37.84924061,"Venezuela, RB"
+9,2003,43.8447916,"Venezuela, RB"
+10,2004,36.91615808,"Venezuela, RB"
+11,2005,37.2010906,"Venezuela, RB"
+12,2006,44.99770331,"Venezuela, RB"
+13,2007,47.50836569,"Venezuela, RB"
+14,2008,51.84121599,"Venezuela, RB"
+15,2009,48.9202854,"Venezuela, RB"
+16,2010,45.0598909,"Venezuela, RB"
+17,2011,47.84937297,"Venezuela, RB"
+18,2012,53.76495162,"Venezuela, RB"
+19,2013,,"Venezuela, RB"
+20,2014,61.90957766,"Venezuela, RB"
+21,2015,,"Venezuela, RB"
+22,2016,56.33331991,"Venezuela, RB"
+1,1995,,Virgin Islands (U.S.)
+2,1996,,Virgin Islands (U.S.)
+3,1997,,Virgin Islands (U.S.)
+4,1998,,Virgin Islands (U.S.)
+5,1999,24.9,Virgin Islands (U.S.)
+6,2000,21.15487206,Virgin Islands (U.S.)
+7,2001,25.76133959,Virgin Islands (U.S.)
+8,2002,37.76817709,Virgin Islands (U.S.)
+9,2003,28.61045481,Virgin Islands (U.S.)
+10,2004,34.23200044,Virgin Islands (U.S.)
+11,2005,34.32504894,Virgin Islands (U.S.)
+12,2006,40.01042132,Virgin Islands (U.S.)
+13,2007,40.13402899,Virgin Islands (U.S.)
+14,2008,43.07196764,Virgin Islands (U.S.)
+15,2009,46.96202651,Virgin Islands (U.S.)
+16,2010,52.75603162,Virgin Islands (U.S.)
+17,2011,42.51580171,Virgin Islands (U.S.)
+18,2012,49.26248378,Virgin Islands (U.S.)
+19,2013,,Virgin Islands (U.S.)
+20,2014,,Virgin Islands (U.S.)
+21,2015,,Virgin Islands (U.S.)
+22,2016,,Virgin Islands (U.S.)
+1,1995,,Lesotho
+2,1996,,Lesotho
+3,1997,,Lesotho
+4,1998,,Lesotho
+5,1999,,Lesotho
+6,2000,,Lesotho
+7,2001,,Lesotho
+8,2002,,Lesotho
+9,2003,,Lesotho
+10,2004,,Lesotho
+11,2005,,Lesotho
+12,2006,,Lesotho
+13,2007,45.14986982,Lesotho
+14,2008,37.60131605,Lesotho
+15,2009,35.80610031,Lesotho
+16,2010,37.44086769,Lesotho
+17,2011,34.49334986,Lesotho
+18,2012,30.67091306,Lesotho
+19,2013,31.07642013,Lesotho
+20,2014,,Lesotho
+21,2015,41.24811176,Lesotho
+22,2016,,Lesotho
+1,1995,32.54897947,Guatemala
+2,1996,35.31962208,Guatemala
+3,1997,38.14334092,Guatemala
+4,1998,30.86778386,Guatemala
+5,1999,24.19285615,Guatemala
+6,2000,24.92544896,Guatemala
+7,2001,27.08607653,Guatemala
+8,2002,29.74072574,Guatemala
+9,2003,33.89470387,Guatemala
+10,2004,35.21939841,Guatemala
+11,2005,40.76045042,Guatemala
+12,2006,43.92771879,Guatemala
+13,2007,42.19619941,Guatemala
+14,2008,44.92243027,Guatemala
+15,2009,45.38911421,Guatemala
+16,2010,40.73704803,Guatemala
+17,2011,38.00274789,Guatemala
+18,2012,33.75667013,Guatemala
+19,2013,33.6812511,Guatemala
+20,2014,31.38745553,Guatemala
+21,2015,29.3986825,Guatemala
+22,2016,27.25501908,Guatemala
+1,1995,,Belize
+2,1996,,Belize
+3,1997,,Belize
+4,1998,,Belize
+5,1999,,Belize
+6,2000,16.57804824,Belize
+7,2001,25.09961409,Belize
+8,2002,33.18001876,Belize
+9,2003,24.89503214,Belize
+10,2004,28.61396144,Belize
+11,2005,28.59392044,Belize
+12,2006,31.64263088,Belize
+13,2007,32.50593987,Belize
+14,2008,33.64199043,Belize
+15,2009,30.898706400000002,Belize
+16,2010,40.11094251,Belize
+17,2011,37.66798707,Belize
+18,2012,43.06491516,Belize
+19,2013,28.76393525,Belize
+20,2014,34.97358499,Belize
+21,2015,33.12106166,Belize
+22,2016,37.59916781,Belize
+1,1995,,Trinidad and Tobago
+2,1996,,Trinidad and Tobago
+3,1997,,Trinidad and Tobago
+4,1998,,Trinidad and Tobago
+5,1999,,Trinidad and Tobago
+6,2000,9.463841815,Trinidad and Tobago
+7,2001,11.86752385,Trinidad and Tobago
+8,2002,13.38198847,Trinidad and Tobago
+9,2003,17.83416871,Trinidad and Tobago
+10,2004,20.14668335,Trinidad and Tobago
+11,2005,29.76250141,Trinidad and Tobago
+12,2006,28.46960888,Trinidad and Tobago
+13,2007,29.864198100000003,Trinidad and Tobago
+14,2008,41.58519415,Trinidad and Tobago
+15,2009,38.36206831,Trinidad and Tobago
+16,2010,35.61478804,Trinidad and Tobago
+17,2011,26.37122899,Trinidad and Tobago
+18,2012,28.32464214,Trinidad and Tobago
+19,2013,30.26149492,Trinidad and Tobago
+20,2014,29.90048675,Trinidad and Tobago
+21,2015,30.88026398,Trinidad and Tobago
+22,2016,,Trinidad and Tobago
+1,1995,9.276222722,St. Kitts and Nevis
+2,1996,9.150386604,St. Kitts and Nevis
+3,1997,15.80064105,St. Kitts and Nevis
+4,1998,17.82213509,St. Kitts and Nevis
+5,1999,13.19290222,St. Kitts and Nevis
+6,2000,6.611715961,St. Kitts and Nevis
+7,2001,13.04631442,St. Kitts and Nevis
+8,2002,10.72018181,St. Kitts and Nevis
+9,2003,21.13896757,St. Kitts and Nevis
+10,2004,22.93052052,St. Kitts and Nevis
+11,2005,16.45718047,St. Kitts and Nevis
+12,2006,34.54582402,St. Kitts and Nevis
+13,2007,32.13948537,St. Kitts and Nevis
+14,2008,45.69657474,St. Kitts and Nevis
+15,2009,53.05978069,St. Kitts and Nevis
+16,2010,40.82029352,St. Kitts and Nevis
+17,2011,65.37707188,St. Kitts and Nevis
+18,2012,34.22638855,St. Kitts and Nevis
+19,2013,,St. Kitts and Nevis
+20,2014,,St. Kitts and Nevis
+21,2015,,St. Kitts and Nevis
+22,2016,,St. Kitts and Nevis
+1,1995,,Brazil
+2,1996,,Brazil
+3,1997,,Brazil
+4,1998,,Brazil
+5,1999,,Brazil
+6,2000,23.72957362,Brazil
+7,2001,24.73954663,Brazil
+8,2002,25.30378561,Brazil
+9,2003,25.66147675,Brazil
+10,2004,24.02267725,Brazil
+11,2005,23.3496643,Brazil
+12,2006,23.85354439,Brazil
+13,2007,23.36061646,Brazil
+14,2008,23.77719498,Brazil
+15,2009,22.84192642,Brazil
+16,2010,21.98822174,Brazil
+17,2011,24.20091677,Brazil
+18,2012,26.45280214,Brazil
+19,2013,26.75923426,Brazil
+20,2014,27.95657613,Brazil
+21,2015,28.38337623,Brazil
+22,2016,29.527956500000002,Brazil
+1,1995,,"Bahamas, The"
+2,1996,,"Bahamas, The"
+3,1997,,"Bahamas, The"
+4,1998,,"Bahamas, The"
+5,1999,,"Bahamas, The"
+6,2000,24.8413844,"Bahamas, The"
+7,2001,14.18509905,"Bahamas, The"
+8,2002,16.81993291,"Bahamas, The"
+9,2003,15.83551336,"Bahamas, The"
+10,2004,13.64231101,"Bahamas, The"
+11,2005,15.79351798,"Bahamas, The"
+12,2006,18.163952,"Bahamas, The"
+13,2007,22.7851651,"Bahamas, The"
+14,2008,20.93634205,"Bahamas, The"
+15,2009,24.51698717,"Bahamas, The"
+16,2010,26.05090458,"Bahamas, The"
+17,2011,34.64568648,"Bahamas, The"
+18,2012,29.83558175,"Bahamas, The"
+19,2013,31.544905100000005,"Bahamas, The"
+20,2014,32.18471409,"Bahamas, The"
+21,2015,37.74189712,"Bahamas, The"
+22,2016,28.40055737,"Bahamas, The"
+1,1995,,Curacao
+2,1996,,Curacao
+3,1997,,Curacao
+4,1998,,Curacao
+5,1999,,Curacao
+6,2000,,Curacao
+7,2001,7.67595201,Curacao
+8,2002,30.27268705,Curacao
+9,2003,33.58823943,Curacao
+10,2004,31.992009799999998,Curacao
+11,2005,20.0936674,Curacao
+12,2006,13.64690898,Curacao
+13,2007,19.18847511,Curacao
+14,2008,,Curacao
+15,2009,,Curacao
+16,2010,,Curacao
+17,2011,,Curacao
+18,2012,,Curacao
+19,2013,,Curacao
+20,2014,,Curacao
+21,2015,,Curacao
+22,2016,,Curacao
+1,1995,,St. Lucia
+2,1996,,St. Lucia
+3,1997,,St. Lucia
+4,1998,,St. Lucia
+5,1999,,St. Lucia
+6,2000,14.65444189,St. Lucia
+7,2001,21.45597738,St. Lucia
+8,2002,26.28894049,St. Lucia
+9,2003,22.36399893,St. Lucia
+10,2004,22.80417378,St. Lucia
+11,2005,25.04367372,St. Lucia
+12,2006,25.99648141,St. Lucia
+13,2007,17.33537373,St. Lucia
+14,2008,23.04692117,St. Lucia
+15,2009,22.80408369,St. Lucia
+16,2010,25.49542241,St. Lucia
+17,2011,26.46233145,St. Lucia
+18,2012,22.30674636,St. Lucia
+19,2013,18.7862917,St. Lucia
+20,2014,19.27208212,St. Lucia
+21,2015,,St. Lucia
+22,2016,,St. Lucia
+1,1995,23.34114433,Puerto Rico
+2,1996,23.25648067,Puerto Rico
+3,1997,19.25195006,Puerto Rico
+4,1998,17.22570964,Puerto Rico
+5,1999,15.59141962,Puerto Rico
+6,2000,18.30403503,Puerto Rico
+7,2001,19.65837585,Puerto Rico
+8,2002,20.57413697,Puerto Rico
+9,2003,20.78015076,Puerto Rico
+10,2004,21.10498499,Puerto Rico
+11,2005,20.47591769,Puerto Rico
+12,2006,19.91950708,Puerto Rico
+13,2007,19.49131408,Puerto Rico
+14,2008,21.81601311,Puerto Rico
+15,2009,24.17927983,Puerto Rico
+16,2010,27.36303483,Puerto Rico
+17,2011,31.40018948,Puerto Rico
+18,2012,27.15292397,Puerto Rico
+19,2013,24.45290687,Puerto Rico
+20,2014,19.01804405,Puerto Rico
+21,2015,16.84936936,Puerto Rico
+22,2016,18.50587138,Puerto Rico
+1,1995,18.50361283,St. Vincent and the Grenadines
+2,1996,22.21214449,St. Vincent and the Grenadines
+3,1997,8.334954019,St. Vincent and the Grenadines
+4,1998,22.24137452,St. Vincent and the Grenadines
+5,1999,12.97870565,St. Vincent and the Grenadines
+6,2000,18.53602476,St. Vincent and the Grenadines
+7,2001,11.11234582,St. Vincent and the Grenadines
+8,2002,18.49351802,St. Vincent and the Grenadines
+9,2003,16.6128288,St. Vincent and the Grenadines
+10,2004,26.71358432,St. Vincent and the Grenadines
+11,2005,23.90936511,St. Vincent and the Grenadines
+12,2006,18.36429247,St. Vincent and the Grenadines
+13,2007,36.68143094,St. Vincent and the Grenadines
+14,2008,14.65671232,St. Vincent and the Grenadines
+15,2009,21.05205349,St. Vincent and the Grenadines
+16,2010,22.86968851,St. Vincent and the Grenadines
+17,2011,19.20597031,St. Vincent and the Grenadines
+18,2012,25.61100541,St. Vincent and the Grenadines
+19,2013,,St. Vincent and the Grenadines
+20,2014,,St. Vincent and the Grenadines
+21,2015,,St. Vincent and the Grenadines
+22,2016,36.45616875,St. Vincent and the Grenadines
+1,1995,,Russian Federation
+2,1996,,Russian Federation
+3,1997,,Russian Federation
+4,1998,,Russian Federation
+5,1999,,Russian Federation
+6,2000,28.06760822,Russian Federation
+7,2001,29.43527074,Russian Federation
+8,2002,30.477658299999998,Russian Federation
+9,2003,28.88549165,Russian Federation
+10,2004,27.25266903,Russian Federation
+11,2005,24.81301376,Russian Federation
+12,2006,20.12518122,Russian Federation
+13,2007,17.72754092,Russian Federation
+14,2008,16.59034894,Russian Federation
+15,2009,14.93506677,Russian Federation
+16,2010,,Russian Federation
+17,2011,,Russian Federation
+18,2012,,Russian Federation
+19,2013,10.97723125,Russian Federation
+20,2014,11.31040911,Russian Federation
+21,2015,11.4804567,Russian Federation
+22,2016,10.8161824,Russian Federation
+1,1995,,Central African Republic
+2,1996,,Central African Republic
+3,1997,,Central African Republic
+4,1998,,Central African Republic
+5,1999,,Central African Republic
+6,2000,,Central African Republic
+7,2001,,Central African Republic
+8,2002,,Central African Republic
+9,2003,,Central African Republic
+10,2004,,Central African Republic
+11,2005,,Central African Republic
+12,2006,,Central African Republic
+13,2007,,Central African Republic
+14,2008,,Central African Republic
+15,2009,,Central African Republic
+16,2010,,Central African Republic
+17,2011,,Central African Republic
+18,2012,,Central African Republic
+19,2013,,Central African Republic
+20,2014,,Central African Republic
+21,2015,,Central African Republic
+22,2016,19.75737596,Central African Republic
+1,1995,12.720574699999998,Dominican Republic
+2,1996,12.81228708,Dominican Republic
+3,1997,12.673033300000002,Dominican Republic
+4,1998,13.46598308,Dominican Republic
+5,1999,12.60320798,Dominican Republic
+6,2000,14.13118552,Dominican Republic
+7,2001,12.59036606,Dominican Republic
+8,2002,14.48096387,Dominican Republic
+9,2003,21.20930979,Dominican Republic
+10,2004,24.59629234,Dominican Republic
+11,2005,25.91591768,Dominican Republic
+12,2006,22.87826989,Dominican Republic
+13,2007,22.21087537,Dominican Republic
+14,2008,24.84299311,Dominican Republic
+15,2009,24.31468921,Dominican Republic
+16,2010,24.99498635,Dominican Republic
+17,2011,25.06209426,Dominican Republic
+18,2012,22.33393567,Dominican Republic
+19,2013,19.238819699999997,Dominican Republic
+20,2014,17.39407202,Dominican Republic
+21,2015,,Dominican Republic
+22,2016,15.1817049,Dominican Republic
+1,1995,22.5875525,Namibia
+2,1996,20.75280354,Namibia
+3,1997,18.66574727,Namibia
+4,1998,22.57876076,Namibia
+5,1999,20.475042600000002,Namibia
+6,2000,20.00782411,Namibia
+7,2001,18.25614037,Namibia
+8,2002,17.63374508,Namibia
+9,2003,,Namibia
+10,2004,17.51916657,Namibia
+11,2005,,Namibia
+12,2006,,Namibia
+13,2007,,Namibia
+14,2008,16.80612427,Namibia
+15,2009,18.15595403,Namibia
+16,2010,14.44893865,Namibia
+17,2011,13.90129449,Namibia
+18,2012,17.1383088,Namibia
+19,2013,,Namibia
+20,2014,,Namibia
+21,2015,,Namibia
+22,2016,,Namibia
+1,1995,14.97295938,Guyana
+2,1996,12.07149618,Guyana
+3,1997,11.92200542,Guyana
+4,1998,15.46974638,Guyana
+5,1999,12.44025941,Guyana
+6,2000,10.0889286,Guyana
+7,2001,10.6345786,Guyana
+8,2002,19.01889121,Guyana
+9,2003,27.79783922,Guyana
+10,2004,17.42827798,Guyana
+11,2005,18.90948217,Guyana
+12,2006,20.41085858,Guyana
+13,2007,15.37702459,Guyana
+14,2008,21.17071367,Guyana
+15,2009,15.69010303,Guyana
+16,2010,18.75277943,Guyana
+17,2011,17.35415832,Guyana
+18,2012,18.45726479,Guyana
+19,2013,20.44636391,Guyana
+20,2014,19.518125,Guyana
+21,2015,19.3880658,Guyana
+22,2016,18.37077608,Guyana
+1,1995,,Eswatini
+2,1996,,Eswatini
+3,1997,,Eswatini
+4,1998,,Eswatini
+5,1999,,Eswatini
+6,2000,,Eswatini
+7,2001,18.82700314,Eswatini
+8,2002,12.95181002,Eswatini
+9,2003,13.24269445,Eswatini
+10,2004,13.33268801,Eswatini
+11,2005,13.7447971,Eswatini
+12,2006,10.79861564,Eswatini
+13,2007,14.93279364,Eswatini
+14,2008,18.72470116,Eswatini
+15,2009,15.83839753,Eswatini
+16,2010,17.29236484,Eswatini
+17,2011,,Eswatini
+18,2012,,Eswatini
+19,2013,,Eswatini
+20,2014,,Eswatini
+21,2015,,Eswatini
+22,2016,,Eswatini
+1,1995,,Paraguay
+2,1996,,Paraguay
+3,1997,,Paraguay
+4,1998,16.70553566,Paraguay
+5,1999,12.11399769,Paraguay
+6,2000,18.76402587,Paraguay
+7,2001,24.30352101,Paraguay
+8,2002,24.90646009,Paraguay
+9,2003,22.91389902,Paraguay
+10,2004,21.19661836,Paraguay
+11,2005,15.30499385,Paraguay
+12,2006,12.61304999,Paraguay
+13,2007,13.12402167,Paraguay
+14,2008,13.775159299999999,Paraguay
+15,2009,13.39787596,Paraguay
+16,2010,11.9326035,Paraguay
+17,2011,10.43887277,Paraguay
+18,2012,10.17365919,Paraguay
+19,2013,9.341544819,Paraguay
+20,2014,8.820947582999999,Paraguay
+21,2015,9.29340173,Paraguay
+22,2016,,Paraguay
+1,1995,,Botswana
+2,1996,,Botswana
+3,1997,,Botswana
+4,1998,,Botswana
+5,1999,,Botswana
+6,2000,,Botswana
+7,2001,12.13720166,Botswana
+8,2002,14.32622097,Botswana
+9,2003,17.29165085,Botswana
+10,2004,14.15818906,Botswana
+11,2005,15.68012967,Botswana
+12,2006,13.85175333,Botswana
+13,2007,14.62588552,Botswana
+14,2008,14.43727262,Botswana
+15,2009,14.59682951,Botswana
+16,2010,15.0382209,Botswana
+17,2011,,Botswana
+18,2012,,Botswana
+19,2013,,Botswana
+20,2014,,Botswana
+21,2015,,Botswana
+22,2016,,Botswana
+1,1995,,Greenland
+2,1996,,Greenland
+3,1997,,Greenland
+4,1998,,Greenland
+5,1999,,Greenland
+6,2000,23.14196707,Greenland
+7,2001,30.18090791,Greenland
+8,2002,21.23217382,Greenland
+9,2003,8.817098117,Greenland
+10,2004,19.34542129,Greenland
+11,2005,17.55895419,Greenland
+12,2006,14.04223201,Greenland
+13,2007,14.05308553,Greenland
+14,2008,14.07434774,Greenland
+15,2009,17.62797913,Greenland
+16,2010,19.42158975,Greenland
+17,2011,1.7682840569999998,Greenland
+18,2012,14.16681424,Greenland
+19,2013,12.40826745,Greenland
+20,2014,7.094462772000001,Greenland
+21,2015,7.09509197,Greenland
+22,2016,5.313722156,Greenland
+1,1995,16.91940488,Mexico
+2,1996,15.45413535,Mexico
+3,1997,14.19929696,Mexico
+4,1998,14.07806997,Mexico
+5,1999,12.43380489,Mexico
+6,2000,10.55548026,Mexico
+7,2001,9.978939151,Mexico
+8,2002,9.666945737999999,Mexico
+9,2003,9.548425545,Mexico
+10,2004,8.719051514,Mexico
+11,2005,9.146119871,Mexico
+12,2006,9.493845251,Mexico
+13,2007,7.928549454,Mexico
+14,2008,12.32252075,Mexico
+15,2009,17.14467851,Mexico
+16,2010,21.95468164,Mexico
+17,2011,22.85078186,Mexico
+18,2012,21.49082499,Mexico
+19,2013,18.82141235,Mexico
+20,2014,16.10830967,Mexico
+21,2015,16.49205139,Mexico
+22,2016,19.263960100000002,Mexico
+1,1995,,"Congo, Dem. Rep."
+2,1996,,"Congo, Dem. Rep."
+3,1997,,"Congo, Dem. Rep."
+4,1998,,"Congo, Dem. Rep."
+5,1999,,"Congo, Dem. Rep."
+6,2000,14.056870000000002,"Congo, Dem. Rep."
+7,2001,,"Congo, Dem. Rep."
+8,2002,,"Congo, Dem. Rep."
+9,2003,,"Congo, Dem. Rep."
+10,2004,,"Congo, Dem. Rep."
+11,2005,14.64962477,"Congo, Dem. Rep."
+12,2006,,"Congo, Dem. Rep."
+13,2007,,"Congo, Dem. Rep."
+14,2008,,"Congo, Dem. Rep."
+15,2009,,"Congo, Dem. Rep."
+16,2010,14.27807775,"Congo, Dem. Rep."
+17,2011,,"Congo, Dem. Rep."
+18,2012,,"Congo, Dem. Rep."
+19,2013,,"Congo, Dem. Rep."
+20,2014,,"Congo, Dem. Rep."
+21,2015,13.5463884,"Congo, Dem. Rep."
+22,2016,,"Congo, Dem. Rep."
+1,1995,,South Sudan
+2,1996,,South Sudan
+3,1997,,South Sudan
+4,1998,,South Sudan
+5,1999,,South Sudan
+6,2000,,South Sudan
+7,2001,,South Sudan
+8,2002,,South Sudan
+9,2003,,South Sudan
+10,2004,,South Sudan
+11,2005,,South Sudan
+12,2006,,South Sudan
+13,2007,,South Sudan
+14,2008,,South Sudan
+15,2009,,South Sudan
+16,2010,,South Sudan
+17,2011,,South Sudan
+18,2012,13.90242311,South Sudan
+19,2013,,South Sudan
+20,2014,,South Sudan
+21,2015,,South Sudan
+22,2016,,South Sudan
+1,1995,,Ecuador
+2,1996,,Ecuador
+3,1997,,Ecuador
+4,1998,,Ecuador
+5,1999,,Ecuador
+6,2000,14.51467764,Ecuador
+7,2001,12.89995802,Ecuador
+8,2002,14.58071643,Ecuador
+9,2003,14.57530591,Ecuador
+10,2004,17.6910618,Ecuador
+11,2005,15.44203873,Ecuador
+12,2006,17.07537795,Ecuador
+13,2007,16.00089768,Ecuador
+14,2008,18.04456697,Ecuador
+15,2009,17.86774803,Ecuador
+16,2010,17.56313656,Ecuador
+17,2011,15.44406123,Ecuador
+18,2012,12.47108725,Ecuador
+19,2013,11.01423761,Ecuador
+20,2014,8.243669541000001,Ecuador
+21,2015,6.53478662,Ecuador
+22,2016,5.853766682000001,Ecuador
+1,1995,,Cote d'Ivoire
+2,1996,,Cote d'Ivoire
+3,1997,,Cote d'Ivoire
+4,1998,,Cote d'Ivoire
+5,1999,,Cote d'Ivoire
+6,2000,16.06773427,Cote d'Ivoire
+7,2001,,Cote d'Ivoire
+8,2002,,Cote d'Ivoire
+9,2003,,Cote d'Ivoire
+10,2004,,Cote d'Ivoire
+11,2005,14.70498526,Cote d'Ivoire
+12,2006,,Cote d'Ivoire
+13,2007,,Cote d'Ivoire
+14,2008,,Cote d'Ivoire
+15,2009,,Cote d'Ivoire
+16,2010,12.62864609,Cote d'Ivoire
+17,2011,,Cote d'Ivoire
+18,2012,,Cote d'Ivoire
+19,2013,,Cote d'Ivoire
+20,2014,,Cote d'Ivoire
+21,2015,11.63052429,Cote d'Ivoire
+22,2016,,Cote d'Ivoire
+1,1995,,Small states
+2,1996,,Small states
+3,1997,,Small states
+4,1998,,Small states
+5,1999,,Small states
+6,2000,,Small states
+7,2001,,Small states
+8,2002,,Small states
+9,2003,,Small states
+10,2004,,Small states
+11,2005,,Small states
+12,2006,,Small states
+13,2007,,Small states
+14,2008,,Small states
+15,2009,,Small states
+16,2010,,Small states
+17,2011,,Small states
+18,2012,14.4,Small states
+19,2013,,Small states
+20,2014,13.0,Small states
+21,2015,13.0,Small states
+22,2016,,Small states
+1,1995,,Mali
+2,1996,,Mali
+3,1997,,Mali
+4,1998,,Mali
+5,1999,,Mali
+6,2000,12.88392351,Mali
+7,2001,,Mali
+8,2002,,Mali
+9,2003,,Mali
+10,2004,,Mali
+11,2005,12.68457332,Mali
+12,2006,,Mali
+13,2007,,Mali
+14,2008,,Mali
+15,2009,,Mali
+16,2010,12.17992521,Mali
+17,2011,,Mali
+18,2012,,Mali
+19,2013,,Mali
+20,2014,,Mali
+21,2015,10.90317598,Mali
+22,2016,,Mali
+1,1995,,Suriname
+2,1996,,Suriname
+3,1997,,Suriname
+4,1998,,Suriname
+5,1999,,Suriname
+6,2000,14.39488558,Suriname
+7,2001,16.53619123,Suriname
+8,2002,11.80016727,Suriname
+9,2003,12.28672297,Suriname
+10,2004,9.318720499,Suriname
+11,2005,13.82915185,Suriname
+12,2006,12.29409863,Suriname
+13,2007,8.828636172000001,Suriname
+14,2008,8.34711578,Suriname
+15,2009,,Suriname
+16,2010,,Suriname
+17,2011,,Suriname
+18,2012,,Suriname
+19,2013,,Suriname
+20,2014,,Suriname
+21,2015,,Suriname
+22,2016,,Suriname
+1,1995,15.24679537,Nicaragua
+2,1996,13.98641585,Nicaragua
+3,1997,14.07312512,Nicaragua
+4,1998,13.00925958,Nicaragua
+5,1999,11.23183836,Nicaragua
+6,2000,9.469252382999999,Nicaragua
+7,2001,10.52786355,Nicaragua
+8,2002,10.71207452,Nicaragua
+9,2003,12.11628813,Nicaragua
+10,2004,12.16640554,Nicaragua
+11,2005,13.551878599999998,Nicaragua
+12,2006,13.24719355,Nicaragua
+13,2007,12.92984959,Nicaragua
+14,2008,13.15576389,Nicaragua
+15,2009,14.15315514,Nicaragua
+16,2010,13.68138546,Nicaragua
+17,2011,12.70700538,Nicaragua
+18,2012,11.45121036,Nicaragua
+19,2013,9.990334268,Nicaragua
+20,2014,8.729635216,Nicaragua
+21,2015,8.615537397999999,Nicaragua
+22,2016,7.367124637000001,Nicaragua
+1,1995,15.36495408,Kazakhstan
+2,1996,16.70639713,Kazakhstan
+3,1997,16.66808097,Kazakhstan
+4,1998,16.58020742,Kazakhstan
+5,1999,15.74022972,Kazakhstan
+6,2000,15.44095072,Kazakhstan
+7,2001,14.36172982,Kazakhstan
+8,2002,13.02162205,Kazakhstan
+9,2003,13.07088708,Kazakhstan
+10,2004,13.59035107,Kazakhstan
+11,2005,,Kazakhstan
+12,2006,,Kazakhstan
+13,2007,,Kazakhstan
+14,2008,11.29291997,Kazakhstan
+15,2009,10.94279636,Kazakhstan
+16,2010,8.457845172999999,Kazakhstan
+17,2011,8.529870766,Kazakhstan
+18,2012,7.481748168999999,Kazakhstan
+19,2013,6.508881689,Kazakhstan
+20,2014,5.169324246,Kazakhstan
+21,2015,4.805729105,Kazakhstan
+22,2016,,Kazakhstan
+1,1995,14.08331795,Panama
+2,1996,9.078539248,Panama
+3,1997,11.30155122,Panama
+4,1998,9.882965987,Panama
+5,1999,9.828819893,Panama
+6,2000,9.866856832,Panama
+7,2001,9.90392545,Panama
+8,2002,11.93929377,Panama
+9,2003,10.50114453,Panama
+10,2004,9.420282541,Panama
+11,2005,10.92940475,Panama
+12,2006,6.515512669,Panama
+13,2007,8.078042577,Panama
+14,2008,14.02054678,Panama
+15,2009,15.70102126,Panama
+16,2010,12.62618638,Panama
+17,2011,14.80669576,Panama
+18,2012,16.88339432,Panama
+19,2013,17.27254301,Panama
+20,2014,14.5492325,Panama
+21,2015,11.26157618,Panama
+22,2016,9.669590586,Panama
+1,1995,,Mauritania
+2,1996,,Mauritania
+3,1997,,Mauritania
+4,1998,,Mauritania
+5,1999,,Mauritania
+6,2000,13.70114061,Mauritania
+7,2001,,Mauritania
+8,2002,,Mauritania
+9,2003,,Mauritania
+10,2004,,Mauritania
+11,2005,12.38683845,Mauritania
+12,2006,,Mauritania
+13,2007,,Mauritania
+14,2008,,Mauritania
+15,2009,,Mauritania
+16,2010,10.86879296,Mauritania
+17,2011,,Mauritania
+18,2012,,Mauritania
+19,2013,,Mauritania
+20,2014,,Mauritania
+21,2015,9.941685762,Mauritania
+22,2016,,Mauritania
+1,1995,,Seychelles
+2,1996,,Seychelles
+3,1997,,Seychelles
+4,1998,,Seychelles
+5,1999,,Seychelles
+6,2000,,Seychelles
+7,2001,,Seychelles
+8,2002,,Seychelles
+9,2003,,Seychelles
+10,2004,11.43066161,Seychelles
+11,2005,,Seychelles
+12,2006,10.03803299,Seychelles
+13,2007,8.861222183999999,Seychelles
+14,2008,6.6162362439999995,Seychelles
+15,2009,15.37886943,Seychelles
+16,2010,9.846288496,Seychelles
+17,2011,17.42274103,Seychelles
+18,2012,4.3343988730000005,Seychelles
+19,2013,19.40386999,Seychelles
+20,2014,17.15744097,Seychelles
+21,2015,7.467303877000001,Seychelles
+22,2016,12.73687942,Seychelles
