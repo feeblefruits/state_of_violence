@@ -1,0 +1,11 @@
+.claimants {
+  background-color: #fff;
+  height: 100%;
+  position: relative;
+  &__content {
+    padding: 5%;
+    @media only screen and (min-width: 768px)  {
+      padding: 5% 25%;
+    }
+  }
+}

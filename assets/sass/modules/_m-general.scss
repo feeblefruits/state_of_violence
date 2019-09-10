@@ -1,0 +1,62 @@
+#fullpage {
+  height: 100%;
+  overflow: auto;
+  .blurb {
+    background: $vivid_red;
+    background-image: -webkit-linear-gradient(30deg, $vivid_red 50%, #fff 50%);
+    padding: 5%;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__inner {
+      background: #fff;
+      color: $dark_desaturated_blue;
+      font-family: georgia, times,serif;
+      padding: 3em 5%;
+      width: 100%;
+      -webkit-box-shadow: 0px 0px 25px -15px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 0px 25px -15px rgba(0,0,0,0.75);
+      box-shadow: 0px 0px 25px -15px rgba(0,0,0,0.75);
+      @media only screen and (min-width: 768px)  {
+        width: 45%;
+      }
+      a {
+        color: $vivid_red;
+      }
+      p {
+        color: #999;
+        margin: 0 0 10px;
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+
+
+
+
+//LOOSE CLASS
+.section-head {
+  background-color: white;
+  padding: 5%;
+}
+
+.gif-image {
+  height: auto;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstcharacter {
+  color: #e63520;
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
