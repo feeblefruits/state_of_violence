@@ -1,6 +1,6 @@
 // set the dimensions and margins of the graph
 var drug_margin = {top: 30, right: 30, bottom: 90, left: 80},
-    drug_width = 1200 - drug_margin.left - drug_margin.right,
+    drug_width = 800 - drug_margin.left - drug_margin.right,
     drug_height = 400 - drug_margin.top - drug_margin.bottom;
 
 // append the svg object to the body of the page
