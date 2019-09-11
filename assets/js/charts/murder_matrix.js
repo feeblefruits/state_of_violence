@@ -1,16 +1,16 @@
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 40, bottom: 30, left: 160},
-  width = 800 - margin.left - margin.right,
-  height = 500 - margin.top - margin.bottom;
+var murder_matrix_margin = {top: 30, right: 40, bottom: 30, left: 160},
+  murder_matrix_width = 1200 - murder_matrix_margin.left - murder_matrix_margin.right,
+  murder_matrix_height = 500 - murder_matrix_margin.top - murder_matrix_margin.bottom;
 
 // append the svg object to the body of the page
 var svg_matrix = d3.select("#murder_matrix")
 .append("svg")
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom)
+  .attr("width", murder_matrix_width + murder_matrix_margin.left + murder_matrix_margin.right)
+  .attr("height", murder_matrix_height + murder_matrix_margin.top + murder_matrix_margin.bottom)
 .append("g")
   .attr("transform",
-        "translate(" + margin.left + "," + margin.top + ")");
+        "translate(" + murder_matrix_margin.left + "," + murder_matrix_margin.top + ")");
 
 // Labels of row and columns
 var myYears = ['1995','1996','1997','1998','1999','2000','2001','2002',
@@ -26,16 +26,16 @@ var myCountries = ['Virgin Islands (U.S.)','Dominican Republic','Greenland',"Cot
 
 // Build X scales and axis:
 var x = d3.scaleBand()
-  .range([ 0, width ])
+  .range([ 0, murder_matrix_width ])
   .domain(myYears)
   .padding(0.01);
 svg_matrix.append("g")
-  .attr("transform", "translate(0," + height + ")")
+  .attr("transform", "translate(0," + murder_matrix_height + ")")
   .call(d3.axisBottom(x))
 
 // Build X scales and axis:
 var y = d3.scaleBand()
-  .range([ height, 0 ])
+  .range([ murder_matrix_height, 0 ])
   .domain(myCountries)
   .padding(0.01);
 svg_matrix.append("g")
@@ -47,8 +47,8 @@ var myColor = d3.scaleLinear()
   .domain([1,100])
 
 svg_matrix.append("text")
-  .attr("x", (width / 2))             
-  .attr("y", 0 - (margin.top / 2))
+  .attr("x", (murder_matrix_width / 2))             
+  .attr("y", 0 - (murder_matrix_margin.top / 2))
   .attr("text-anchor", "middle")  
   .style("font-size", "12px") 
   .text("Murder rate per 100,000 people over time");

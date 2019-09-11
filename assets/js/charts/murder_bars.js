@@ -1,16 +1,16 @@
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 30, bottom: 70, left: 60},
-    width = 460 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+var murder_bar_margin = {top: 30, right: 30, bottom: 70, left: 60},
+    murder_bar_width = 700 - murder_bar_margin.left - murder_bar_margin.right,
+    murder_bar_height = 400 - murder_bar_margin.top - murder_bar_margin.bottom;
 
 // append the svg object to the body of the page
 var svg_bar = d3.select("#murder_bar_chart")
   .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("width", murder_bar_width + murder_bar_margin.left + murder_bar_margin.right)
+    .attr("height", murder_bar_height + murder_bar_margin.top + murder_bar_margin.bottom)
   .append("g")
     .attr("transform",
-          "translate(" + margin.left + "," + margin.top + ")");
+          "translate(" + murder_bar_margin.left + "," + murder_bar_margin.top + ")");
 
 // Parse the Data
 d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-development/assets/data/world_bank_murders_per_100000%20_bar_compare_v2.csv", function(data) {
@@ -22,19 +22,19 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
 
   // X axis
   var x = d3.scaleBand()
-    .range([ 0, width ])
+    .range([ 0, murder_bar_width ])
     .domain(data.map(function(d) { return d.country_name; }))
     .padding(0.2);
   svg_bar.append("g")
-    .attr("transform", "translate(0," + height + ")")
+    .attr("transform", "translate(0," + murder_bar_height + ")")
     .call(d3.axisBottom(x))
     .selectAll("text")
       .attr("transform", "translate(-10,0)rotate(-45)")
       .style("text-anchor", "end")
 
   svg_bar.append("text")
-    .attr("x", (width / 2))             
-    .attr("y", 0 - (margin.top / 2))
+    .attr("x", (murder_bar_width / 2))             
+    .attr("y", 0 - (murder_bar_margin.top / 2))
     .attr("text-anchor", "middle")  
     .style("font-size", "12px") 
     .text("Murder rate per 100,000 people of selected countries");
@@ -42,7 +42,7 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
   // Add Y axis
   var y = d3.scaleLinear()
     .domain([0, 80])
-    .range([ height, 0]);
+    .range([ murder_bar_height, 0]);
   svg_bar.append("g")
     .call(d3.axisLeft(y));
 
@@ -54,7 +54,7 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
       .attr("x", function(d) { return x(d.country_name); })
       .attr("y", function(d) { return y(d.average); })
       .attr("width", x.bandwidth())
-      .attr("height", function(d) { return height - y(d.average); })
+      .attr("height", function(d) { return murder_bar_height - y(d.average); })
       .attr("fill", "#be0000")
 
 })
