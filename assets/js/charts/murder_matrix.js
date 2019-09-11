@@ -46,6 +46,13 @@ var myColor = d3.scaleLinear()
   .range(["#fff", "#be0000"])
   .domain([1,100])
 
+svg_matrix.append("text")
+  .attr("x", (width / 2))             
+  .attr("y", 0 - (margin.top / 2))
+  .attr("text-anchor", "middle")  
+  .style("font-size", "12px") 
+  .text("Murder rate per 100,000 people over time");
+
 //Read the data
 d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-development/assets/data/country_murder_rates_matrix.csv", function(data) {
 
