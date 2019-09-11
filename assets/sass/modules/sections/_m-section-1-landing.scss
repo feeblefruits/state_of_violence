@@ -7,7 +7,6 @@
   position: relative;
   overflow: hidden;
   &:before {
-    animation: zoominout 50s infinite ease-in-out;
     background: url('https://images.unsplash.com/photo-1485504750689-aa2121ffe6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1083&q=80')no-repeat center bottom /cover;
     content: "";
     display: block;
