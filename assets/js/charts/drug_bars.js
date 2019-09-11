@@ -6,8 +6,8 @@ var drug_margin = {top: 30, right: 30, bottom: 90, left: 80},
 // append the svg object to the body of the page
 var svg_drug_bar = d3.select("#drug_bar_chart")
   .append("svg")
-    .attr("width", drug_width + drug_margin.left + drug_margin.right)
-    .attr("height", drug_height + drug_margin.top + drug_margin.bottom)
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 800 500")
   .append("g")
     .attr("transform",
           "translate(" + drug_margin.left + "," + drug_margin.top + ")");

@@ -1,13 +1,13 @@
 // set the dimensions and margins of the graph
 var murder_matrix_margin = {top: 30, right: 40, bottom: 30, left: 160},
-  murder_matrix_width = 1200 - murder_matrix_margin.left - murder_matrix_margin.right,
+  murder_matrix_width = 800 - murder_matrix_margin.left - murder_matrix_margin.right,
   murder_matrix_height = 500 - murder_matrix_margin.top - murder_matrix_margin.bottom;
 
 // append the svg object to the body of the page
 var svg_matrix = d3.select("#murder_matrix")
 .append("svg")
-  .attr("width", murder_matrix_width + murder_matrix_margin.left + murder_matrix_margin.right)
-  .attr("height", murder_matrix_height + murder_matrix_margin.top + murder_matrix_margin.bottom)
+  .attr("preserveAspectRatio", "xMinYMin meet")
+  .attr("viewBox", "0 0 800 500")
 .append("g")
   .attr("transform",
         "translate(" + murder_matrix_margin.left + "," + murder_matrix_margin.top + ")");

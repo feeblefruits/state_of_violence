@@ -1,13 +1,13 @@
 // set the dimensions and margins of the graph
 var murder_bar_margin = {top: 30, right: 30, bottom: 70, left: 60},
-    murder_bar_width = 700 - murder_bar_margin.left - murder_bar_margin.right,
+    murder_bar_width = 600 - murder_bar_margin.left - murder_bar_margin.right,
     murder_bar_height = 400 - murder_bar_margin.top - murder_bar_margin.bottom;
 
 // append the svg object to the body of the page
 var svg_bar = d3.select("#murder_bar_chart")
   .append("svg")
-    .attr("width", murder_bar_width + murder_bar_margin.left + murder_bar_margin.right)
-    .attr("height", murder_bar_height + murder_bar_margin.top + murder_bar_margin.bottom)
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 600 400")
   .append("g")
     .attr("transform",
           "translate(" + murder_bar_margin.left + "," + murder_bar_margin.top + ")");

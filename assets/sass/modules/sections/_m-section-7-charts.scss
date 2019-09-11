@@ -1,5 +1,11 @@
 .chart_section {
 	background-color: #fff;
+	padding-left: 0;
+	padding-right: 0;
+	@media only screen and (min-width: 600px) {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
 }
 
 svg {
