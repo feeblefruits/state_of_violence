@@ -1,10 +1,10 @@
 // set the dimensions and margins of the graph
-var margin = {top: 30, right: 40, bottom: 30, left: 140},
+var margin = {top: 30, right: 40, bottom: 30, left: 160},
   width = 800 - margin.left - margin.right,
   height = 500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
+var svg_matrix = d3.select("#murder_matrix")
 .append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
@@ -29,7 +29,7 @@ var x = d3.scaleBand()
   .range([ 0, width ])
   .domain(myYears)
   .padding(0.01);
-svg.append("g")
+svg_matrix.append("g")
   .attr("transform", "translate(0," + height + ")")
   .call(d3.axisBottom(x))
 
@@ -38,7 +38,7 @@ var y = d3.scaleBand()
   .range([ height, 0 ])
   .domain(myCountries)
   .padding(0.01);
-svg.append("g")
+svg_matrix.append("g")
   .call(d3.axisLeft(y));
 
 // Build color scale
@@ -49,7 +49,7 @@ var myColor = d3.scaleLinear()
 //Read the data
 d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-development/assets/data/country_murder_rates_matrix.csv", function(data) {
 
-  svg.selectAll()
+  svg_matrix.selectAll()
       .data(data, function(d) {return d.year+':'+d.country_name;})
       .enter()
       .append("rect")
