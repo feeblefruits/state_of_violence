@@ -46,6 +46,14 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
   svg_bar.append("g")
     .call(d3.axisLeft(y));
 
+  function colorPicker(v) {
+    if (v == 41.68) {
+      return "#11a579";
+    } else {
+      return "#be0000";
+    }
+  }
+
   // Bars
   svg_bar.selectAll("mybar")
     .data(data)
@@ -55,6 +63,6 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
       .attr("y", function(d) { return y(d.average); })
       .attr("width", x.bandwidth())
       .attr("height", function(d) { return murder_bar_height - y(d.average); })
-      .attr("fill", "#be0000")
+      .attr("fill", function(d) { return colorPicker(d.average); })
 
 })

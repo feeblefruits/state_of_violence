@@ -46,6 +46,14 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
   svg_drug_bar.append("g")
     .call(d3.axisLeft(y));
 
+  function colorPicker(v) {
+    if (v == 0.9214990234) {
+      return "#11a579";
+    } else {
+      return "#be0000";
+    }
+  }
+
   // Bars
   svg_drug_bar.selectAll("mybar")
     .data(data)
@@ -55,6 +63,7 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
       .attr("y", function(d) { return y(d.drug_use_disorder_percentage); })
       .attr("width", x.bandwidth())
       .attr("height", function(d) { return drug_height - y(d.drug_use_disorder_percentage); })
-      .attr("fill", "#be0000")
+      .attr("fill", function(d) { return colorPicker(d.drug_use_disorder_percentage); })
+
 
 })
