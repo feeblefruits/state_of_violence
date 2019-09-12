@@ -39,6 +39,13 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
     .style("font-size", "12px") 
     .text("Murder rate per 100,000 people of selected countries");
 
+  svg_bar.append("text")
+    .attr("x", (1))             
+    .attr("y", (murder_bar_height + 90))
+    .attr("text-anchor", "left")  
+    .style("font-size", "9px")
+    .text("Source: World Bank figures from 2016 (latest available)");
+
   // Add Y axis
   var y = d3.scaleLinear()
     .domain([0, 80])

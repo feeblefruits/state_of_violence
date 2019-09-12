@@ -39,6 +39,13 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
     .style("font-size", "12px") 
     .text("Share of population with drug disorders");
 
+  svg_drug_bar.append("text")
+    .attr("x", (1))             
+    .attr("y", (drug_height + 100))
+    .attr("text-anchor", "left")  
+    .style("font-size", "9px")
+    .text("Source: Institute for Health Metrics and Evaluation from 2018 (latest available)");
+
   // Add Y axis
   var y = d3.scaleLinear()
     .domain([0, 5])
