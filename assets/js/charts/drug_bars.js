@@ -25,6 +25,7 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
     .range([ 0, drug_width ])
     .domain(data.map(function(d) { return d.country_name; }))
     .padding(0.2);
+    
   svg_drug_bar.append("g")
     .attr("transform", "translate(0," + drug_height + ")")
     .call(d3.axisBottom(x))
