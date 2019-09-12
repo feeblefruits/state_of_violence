@@ -1,0 +1,107 @@
+.chapter_landing_drugs {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  min-height: 100vh; //If Content is less than viewport else
+  position: relative;
+  overflow: hidden;
+  &:before {
+    background: url('/assets/images/Cape Flats High School DH 9825.jpg')no-repeat center bottom /cover;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  &__intro {
+    margin: 0 auto;
+    position: relative;
+    overflow: auto;
+  }
+  &__inner {
+    display: inline-block;
+    @media only screen and (min-width: 330px) {
+      padding: 60% 0 0;
+    }
+    @media only screen and (min-width: 600px)  {
+      padding: 40% 0 0;
+    }
+    @media only screen and (min-width: 1000px) {
+      padding: 15em 0 10%
+    }
+  }
+}
+
+.chapter_landing_murder {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  min-height: 100vh; //If Content is less than viewport else
+  position: relative;
+  overflow: hidden;
+  &:before {
+    background: url('/assets/images/ipadInanda.jpg')no-repeat center bottom /cover;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  &__intro {
+    margin: 0 auto;
+    position: relative;
+    overflow: auto;
+  }
+  &__inner {
+    display: inline-block;
+    @media only screen and (min-width: 330px) {
+      padding: 60% 0 0;
+    }
+    @media only screen and (min-width: 600px)  {
+      padding: 40% 0 0;
+    }
+    @media only screen and (min-width: 1000px) {
+      padding: 15em 0 10%
+    }
+  }
+}
+
+.chapter_landing_rape {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  min-height: 100vh; //If Content is less than viewport else
+  position: relative;
+  overflow: hidden;
+  &:before {
+    background: url('/assets/images/thohoyandou_houses_2500.jpg')no-repeat center bottom /cover;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  &__intro {
+    margin: 0 auto;
+    position: relative;
+    overflow: auto;
+  }
+  &__inner {
+    display: inline-block;
+    @media only screen and (min-width: 330px) {
+      padding: 60% 0 0;
+    }
+    @media only screen and (min-width: 600px)  {
+      padding: 40% 0 0;
+    }
+    @media only screen and (min-width: 1000px) {
+      padding: 15em 0 10%
+    }
+  }
+}
