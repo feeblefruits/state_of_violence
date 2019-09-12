@@ -37,11 +37,11 @@
   }
 
 .image_subtext {
-  position: absolute;
-  z-index: 999;
+  position: relative;
   margin: 0 auto;
   left: 0;
   right: 0;
+  padding: 15px;
 }
 
 .full_image {

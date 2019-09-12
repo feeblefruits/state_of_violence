@@ -1,5 +1,5 @@
 // set the dimensions and margins of the graph
-var murder_bar_margin = {top: 30, right: 30, bottom: 70, left: 60},
+var murder_bar_margin = {top: 30, right: 30, bottom: 90, left: 60},
     murder_bar_width = 600 - murder_bar_margin.left - murder_bar_margin.right,
     murder_bar_height = 400 - murder_bar_margin.top - murder_bar_margin.bottom;
 
