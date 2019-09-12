@@ -3,18 +3,18 @@
     display: inline-block;
     font-family: 'Impact';
     font-weight: normal;
-    font-size: 48px;
+    font-size: 60px;
     padding: 0.5em 1em 0.3em;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 2px, rgba(0, 0, 0, 0.3) 0px 0px 20px;
     @media only screen and (min-width: 768px)  {
-      font-size: 48px;
+      font-size: 60px;
     }
     @media only screen and (min-width: 1000px)  {
-      font-size: 61px;
+      font-size: 80px;
     }
     @media only screen and (min-width: 1311px) {
-      font-size: 66px;
+      font-size: 80px;
     }
     &_char {
       background: rgba(0,0,0,0.1);
@@ -25,14 +25,20 @@
     &--secondary {
       font-family: 'Impact';
       font-weight: normal;
-      font-size: 23px;
-      @media only screen and (min-width: 768px) {
-        font-size: 38px;
+      padding-top: 25%;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 35;
+      @media only screen and (min-width: 300px) {
+        font-size: 50px;
       }
     }
   }
   &__secondary {
-    font-size: 40px;
+    padding-top: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
     padding: 0 0 1em;
   }
   &__medium {
