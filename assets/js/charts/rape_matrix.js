@@ -60,7 +60,7 @@ svg_matrix.append("text")
   .attr("y", (rape_matrix_height + 50))
   .attr("text-anchor", "left")  
   .style("font-size", "16px")
-  .text("Source: SAPS annual crime stats 2018/19");
+  .text("Source: SAPS annual crime stats 2018/19. The darker the colour, the more rapes were reported that year.");
 
 //Read the data
 d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/master/assets/data/rape_matrix_total.csv", function(data) {
