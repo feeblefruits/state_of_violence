@@ -12,3 +12,18 @@ svg {
 	display: block;
     margin: 0 auto;
 }
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  font: 12px sans-serif;
+  background: #fff;
+	opacity: 0.9;
+  color: black;
+  border: 0px;
+  border-radius: 4px;
+  pointer-events: none;
+}
