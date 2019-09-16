@@ -39,6 +39,7 @@ var y = d3.scaleBand()
   .range([ rape_matrix_height, 0 ])
   .domain(myCountries)
   .padding(0.01);
+
 svg_matrix.append("g")
   .call(d3.axisLeft(y))
   .style("font-size", "12px");
@@ -62,6 +63,15 @@ svg_matrix.append("text")
   .style("font-size", "16px")
   .text("Source: SAPS annual crime stats 2018/19. The darker the colour, the more rapes were reported that year. The maximum is 446.");
 
+var tooltip = d3.tooltip() // returns the tooltip function
+    .extent([20,40]) // tells the tooltip how much area it has to work with
+    .tips("hellow") // tells the tooltip which properties to display in the tip and what to label thme
+    .fontSize(12) // sets the font size for the tooltip
+    .padding([8,4]) // sets the amount of padding in the tooltip rectangle
+    .margin([10,10]); // set the distance H and V to keep the tooltip from the mouse pointer
+
+  svg_matrix.call(tooltip);
+
 //Read the data
 d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/master/assets/data/rape_matrix_total.csv", function(data) {
 
@@ -74,5 +84,5 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/master/
       .attr("width", x.bandwidth() )
       .attr("height", y.bandwidth() )
       .style("fill", function(d) { return myColor(d.rape_rate)} )
-
+      .each(tooltip.events)
 })

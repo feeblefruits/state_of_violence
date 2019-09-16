@@ -37,7 +37,7 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
     .attr("y", 0 - (murder_bar_margin.top / 2))
     .attr("text-anchor", "middle")  
     .style("font-size", "12px") 
-    .text("Murder rate per 100,000 people of selected countries");
+    .text("Murder rate per 100 000 people of selected countries");
 
   svg_bar.append("text")
     .attr("x", (1))             
