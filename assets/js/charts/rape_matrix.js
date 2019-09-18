@@ -54,14 +54,14 @@ svg_matrix.append("text")
   .attr("y", 0 - (rape_matrix_margin.top / 2))
   .attr("text-anchor", "middle")  
   .style("font-size", "18px") 
-  .text("Reported rates per police station 2009/10 - 2018/19");
+  .text("Reported rates per police station 2009-10 - 2018-19");
 
 svg_matrix.append("text")
   .attr("x", (1))             
   .attr("y", (rape_matrix_height + 50))
   .attr("text-anchor", "left")  
   .style("font-size", "16px")
-  .text("Source: SAPS annual crime stats 2018/19. The darker the colour, the more rapes were reported that year. The maximum is 446.");
+  .text("Source: SAPS annual crime stats 2018-19. The darker the colour, the more rapes were reported that year. The maximum is 446.");
 
 var tooltip = d3.tooltip() // returns the tooltip function
     .extent([20,40]) // tells the tooltip how much area it has to work with
