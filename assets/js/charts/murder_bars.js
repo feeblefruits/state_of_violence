@@ -44,7 +44,7 @@ d3.csv("https://raw.githubusercontent.com/feeblefruits/state_of_violence/body-de
     .attr("y", (murder_bar_height + 90))
     .attr("text-anchor", "left")  
     .style("font-size", "9px")
-    .text("Source: World Bank figures from 2016 (latest available)");
+    .text("Source: World Bank figures from 2016 (latest available) showing average between 1995 and 2016");
 
   // Add Y axis
   var y = d3.scaleLinear()
