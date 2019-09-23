@@ -58,7 +58,7 @@ svg_matrix.append("text")
   .attr("y", 0 - (rape_matrix_margin.top / 2))
   .attr("text-anchor", "middle")
   .style("font-size", "18px")
-  .text("Reported rates per police station 2009/10 - 2018/19");
+  .text("Reported rapes per police station 2009/10 - 2018/19");
 
 svg_matrix.append("text")
   .attr("x", (1))
